@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1734595324 source:d:\strukdat\tubes\tekseditordll\main.cpp
+	<iostream>
+	<conio.h>
+	"teksEditor.h"
+
+1734595422 d:\strukdat\tubes\tekseditordll\tekseditor.h
+	<iostream>
+
+1734595223 source:d:\strukdat\tubes\tekseditordll\tekseditor.cpp
+	<iostream>
+	"teksEditor.h"
+
