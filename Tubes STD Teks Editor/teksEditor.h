@@ -1,6 +1,6 @@
 #ifndef TEKSEDITOR_H_INCLUDED
 #define TEKSEDITOR_H_INCLUDED
-#define MAX 5000
+#define MAX 1000
 #include <iostream>
 
 using namespace std;
@@ -24,7 +24,7 @@ struct infotypeStack {
     string action;         // Jenis operasi: "insert" atau "delete"
     adr target;            // Pointer ke elemen yang dihapus/dimasukkan
     adr cursorBefore;      // Posisi cursor sebelum operasi
-    string position;       // Posisi elemen: "first", "last", atau "after"
+    string position;       // Posisi elemen
 };
 
 struct Stack {

@@ -11,12 +11,13 @@ int main() {
     createStack(undoStack);
     createStack(redoStack);
 
-    cout << "Selamat datang di Notepad Sederhana\n";
-    cout << "1. Input karakter untuk menambah teks.\n";
-    cout << "2. Gunakan Panah Kiri (<-) dan Panah Kanan (->) untuk memindahkan cursor.\n";
-    cout << "3. Tekan Backspace untuk menghapus karakter.\n";
-    cout << "4. Tekan CTRL+Z untuk Undo dan CTRL+Y untuk Redo.\n";
-    cout << "5. Tekan ESC untuk keluar.\n\n";
+    cout << " ------------------> Notepad Setengah mateng <-------------------" << endl;
+    cout << "| 1. Input karakter untuk menambah teks.                         |" << endl;
+    cout << "| 2. Gunakan Panah Kiri dan Panah Kanan untuk memindahkan cursor.|" << endl;
+    cout << "| 3. Tekan Backspace untuk menghapus karakter.                   |" << endl;
+    cout << "| 4. Tekan CTRL+Z untuk Undo dan CTRL+Y untuk Redo.              |" << endl;
+    cout << "| 5. Tekan ESC untuk keluar.                                     |" << endl;
+    cout << " ----------------------------------------------------------------" << endl;
 
     char input;
     while (true) {
@@ -72,8 +73,13 @@ int main() {
 
         // Tampilkan teks dan posisi cursor
         system("cls");
-        cout << "-> Notepad Setengah Mateng <-" << endl;
-        cout << "-----------------------------" << endl;
+        cout << " ------------------> Notepad Setengah mateng <-------------------" << endl;
+        cout << "| 1. Input karakter untuk menambah teks.                         |" << endl;
+        cout << "| 2. Gunakan Panah Kiri dan Panah Kanan untuk memindahkan cursor.|" << endl;
+        cout << "| 3. Tekan Backspace untuk menghapus karakter.                   |" << endl;
+        cout << "| 4. Tekan CTRL+Z untuk Undo dan CTRL+Y untuk Redo.              |" << endl;
+        cout << "| 5. Tekan ESC untuk keluar.                                     |" << endl;
+        cout << " ----------------------------------------------------------------" << endl;
         showTeks(teks);
 
         // Tampilkan posisi cursor
@@ -85,6 +91,6 @@ int main() {
         }
     }
 
-    cout << "\nTerima kasih telah menggunakan Notepad Sederhana. Have a wonderful day!" << endl;
+    cout << "\nTerima kasih telah menggunakan Notepad Setengah Mateng. Have a wonderful day!" << endl;
     return 0;
 }
