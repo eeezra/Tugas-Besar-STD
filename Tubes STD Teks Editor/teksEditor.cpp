@@ -157,8 +157,8 @@ void tambahTeks(List &L, adr &cursor, adr ptr) {
 }
 
 void deletechar(List &L, adr &cursor, adr &ptr) {
-    /* I.S. terdefinisi sebuah list all yang mungkin kosong, sebuah pointer cursor yang menunjuk ke salah satu elemen L, dan sebuah pointer ptr.
-    F.S. elemen yang ditunjuk cursor keluar dari list dia dan ditunjuk oleh ptr. Posisi cursor berubah menunjuk ke elemen sesudahnya atau Null. Posisi cursor bernilai Null. apabila menghapus (1) elemen satu-satunya dalam list, atau (2) elemen terakhir dalam list. */
+    /* I.S. terdefinisi sebuah list L yang mungkin kosong, sebuah pointer cursor yang menunjuk ke salah satu elemen L, dan sebuah pointer ptr.
+    F.S. elemen yang ditunjuk cursor keluar dari list dia dan ditunjuk oleh ptr. Posisi cursor berubah menunjuk ke elemen sesudahnya atau Null. Posisi cursor bernilai Null. apabila menghapus (1) elemen satu-satunya dalam list, atau (2) elemen terakhirÂ dalamÂ list. */
 
     if (cursor != nullptr) {
         ptr = cursor;
